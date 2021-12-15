@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>ROBMATH</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="menu-score">
+            <h2>S C O R E</h2>
+            <div id="score-count">	
+                <p>0</p>
+            </div>
+        </div>
+        <div class="escenario">
+            <div class="operaciones" id="operation">
+                <img src="tablero.png" alt="">
+                <div class="problemas">4 + 25 = ?</div>
+            </div>
+            <div class="jugador">
+                <img src="personaje.png" alt="">
+            </div>
+            <div class="opciones" id="original">
+                <button id="correcta" class="boton">29</button>
+                <button id="incorrecta" class="boton">32</button>
+                <button id="incorrectas" class="boton">30</button>
+            </div>
+            <div class="operaciones2" id="operations">
+                <img src="tablero.png" alt="">
+                <div class="problemas">40 + 12 = ?</div>
+            </div>
+            <div class="opciones2" id="newOne">
+                <button id="correcta1" class="boton">52</button>
+                <button id="incorrecta2" class="boton">55</button>
+                <button id="incorrectas3" class="boton">49</button>
+            </div>
+        </div>
+        <div class="popup" id="winnerModal">
+            <div class="content">
+                <h2>¡Correcto!</h2>
+                <button id="nextLevel">
+                    <span>Siguiente Nivel</span>
+                </button>
+                <button id="close">
+                    <span>Cerrar</span>
+                </button>
+            </div>
+        </div>
+        <div class="popup" id="looserModal">
+            <div class="content">
+                <h2>Respuesta incorrecta</h2>
+                <button id="playAgain">
+                    <span>¡Inténtalo de nuevo!</span>
+                </button>
+                <button id="close2">
+                    <span>Cerrar</span>
+                </button>
+            </div>
+        </div>
+        <div class="popup" id="congrats">
+            <div class="content">
+                <h2>¡Felicitaciones! Has ganado el juego</h2>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>

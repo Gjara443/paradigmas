@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 1000;
+}
+.main.container{
+    width: 100%;
+    height: 100%;
+}
+.menu-score{
+    width: 200px;
+    height: 90px;
+    float: right;
+    text-align: center;
+    margin: 50px;
+}
+#score-count{
+    margin: 15px;
+}
+.escenario{
+    width: 100%;
+    height: 700px;
+}
+.operaciones{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    display: block;
+}
+.operaciones2{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    display: none; 
+}
+.problemas{
+    position: absolute;
+    top: 30%;
+    left: 33%;
+}
+.jugador img{
+    position: absolute;
+    top: -75%;
+    margin: 50%;
+}
+.opciones{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    display: block;
+}
+.opciones2{
+    position: absolute;
+    top: 60%;
+    left: 30%;
+    display: none;
+}
+.opciones2 button{
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-color: black;
+    border-radius: 30%;
+    font-size: 25px;
+}
+.opciones2 button:hover{
+    background-color: grey;
+}
+.opciones button{
+    margin: 20px;
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    border-color: black;
+    border-radius: 30%;
+    font-size: 25px;
+}
+.opciones button:hover{
+    background-color: grey;
+}
+.popup{
+	display: none;
+	width: 100%;
+	height: 100%;
+	overflow: auto;
+	left: 0;
+	top: 0;
+	position: fixed;
+	background-color: rgba(0,0,0,0.5);
+}
+.content{
+    width: 100%;
+    max-width: 600px;
+    height: 200px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    background: white;
+}
+.content h2{
+    align-self: center;
+    margin: 50px;
+}
+.content button{
+    width: 150px;
+    height: 70px;
+    border-radius: 20%;
+    margin: 25px;
+    margin-top: 50px;
+}
+#close {
+    background-color: rgba(175, 14, 14, 0.87);
+}
